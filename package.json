@@ -2,7 +2,7 @@
   "name": "dad-fonticons",
   "version": "1.0.0",
   "description": "List of fonts icons of the project dad",
-  "main": "index.js",
+  "style": "public/style.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
