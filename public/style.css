@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?r2ydyk');
-  src:  url('fonts/icomoon.eot?r2ydyk#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?r2ydyk') format('truetype'),
-    url('fonts/icomoon.woff?r2ydyk') format('woff'),
-    url('fonts/icomoon.svg?r2ydyk#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?m3n7lt');
+  src:  url('fonts/icomoon.eot?m3n7lt#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?m3n7lt') format('truetype'),
+    url('fonts/icomoon.woff?m3n7lt') format('woff'),
+    url('fonts/icomoon.svg?m3n7lt#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,14 +24,23 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-upload:before {
+  content: "\e90c";
+}
+.icon-sold:before {
+  content: "\e909";
+}
+.icon-edit:before {
+  content: "\e90a";
+}
+.icon-microphone:before {
+  content: "\e90b";
+}
 .icon-leftarrow:before {
   content: "\e900";
 }
 .icon-rightarrow:before {
   content: "\e908";
-}
-.icon-sold:before {
-  content: "\e909";
 }
 .icon-imagenotfound:before {
   content: "\e907";
